@@ -1,0 +1,302 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.2px;
+}
+
+:root{
+    --primary-color:#eb5757;
+    --secondary-color: #222;
+    --light-color: #f9f9f9;
+    --dark-color: #333;
+}
+
+header{
+    width: 100vw;
+    height: 150px;
+    position: fixed;
+    background-color: var(--primary-color);
+}
+
+header .covid{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: var(--light-color);
+    background-color: var(--secondary-color);
+}
+
+header .covid button{
+    width: 140px;
+    height: 35px;
+    border-radius: 18px;
+    border: none;
+    background-color: var(--primary-color);
+    color: var(--light-color);
+}
+
+header .covid p{
+    font-size: 18px;
+}
+
+header .menu{
+    width: 100%;
+    height: 75px;
+    padding: 0 170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--light-color);
+}
+
+header .menu div{
+    width: 600px;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .menu div a{
+    height: 35px;
+    width: 75px;
+    padding-top: 8px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--light-color);
+    display: inline-block;
+    transition: all 0.5s ease;
+}
+
+header .menu div a:hover{
+    background-color: var(--secondary-color);
+}
+
+header .menu div button{
+    width: 45px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: var(--secondary-color);
+    background-image: url("./img/9025885_shopping_cart_icon.png");
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+    border: none;
+    position: relative;
+}
+
+header .menu div button span{
+    width: 20px;
+    height: 20px;
+    padding-top: 2px;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: -10px;
+    left: 35px;
+    text-align: center;
+    color: var(--dark-color);
+    background-color: var(--light-color);
+}
+
+main{
+    padding-top: 150px;
+}
+.calis{
+    background-color: rgba(0, 0, 0, 0);
+} 
+
+main .primera{
+    height: 500px;
+    background-image: url("https://picsum.photos/400/300");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.encabezado1{
+    width: 25%;
+    color: #f9f9f9;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+main .encabezado1{
+    width: 100%;
+    height: 500px;
+    background-image: url("imagen1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+
+.encabezado1 button{
+    width: 120px;
+    height: 35px;
+    border-radius: 18px;
+    border: none;
+    background-color: var(--dark-color);
+    color: var(--light-color);
+}
+
+.encabezado2{
+    width: 25%;
+    color: #000;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.texto1{
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+main .cajas div{
+    color: white;
+    display: flex;
+    min-height: 350px;
+    width: 300px;
+    margin-bottom: 45px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #222;
+}
+
+.encabezado2{
+    width: 25%;
+    color: #f9f9f9;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: right;
+}
+
+main .encabezado2{
+    width: 100%;
+    height: 500px;
+    background-image: url("imagen1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+
+ .encabezado2 button{
+    width: 160px;
+    height: 35px;
+    border-radius: 18px;
+    border: none;
+    background-color: var(--dark-color);
+    color: var(--light-color);
+}
+
+.encabezado3{
+    width: 25%;
+    color: black;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.producto1{
+    width: 200%;
+    height: 500px;
+    background-image: url("imagen1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    margin-right: 200px;
+    text-align: center;
+ }
+
+ .producto1 button{
+    width: 160px;
+    height: 35px;
+    border-radius: 18px;
+    border: none;
+    background-color: var(--dark-color);
+    color: var(--light-color);
+}
+
+.btn{
+    width: 160px;
+    height: 35px;
+    border-radius: 18px;
+    border: none;
+    background-color: var(--primary-color);
+    color: var(--light-color);
+}
+
+.texto2 p{
+    margin-top: 0px;
+    font-size: 30px;
+    line-height: 1.2;
+    color: white;
+    background-color: #000;
+}
+
+.texto h2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: bold;
+}
+
+.caja{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    text-align: center;
+}
+
+.imagen1{
+    color: white;
+    background-color: black;
+    width: 350px;
+    height: 250px;
+    display:flex;
+}
+
+.escrito{
+    font-size: 20px;
+}
+
+.nombre{
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+    text-align: center;
+}
+
+.img{
+    width: 50%;
+    height: 200px;
+    background-image: url("imagen1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main .final div{
+    width: 100%;
+    height: 90px;
+    background-color: var(--dark-color);
+}
+
+main .final p{
+    color: white;
+}
+
